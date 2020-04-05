@@ -8,9 +8,6 @@ import store from './redux/store';
 import "./index.css";
 import App from "./App";
 
-console.log('HELLO THIS AURIA');
-console.log(store);
-
 ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter>
